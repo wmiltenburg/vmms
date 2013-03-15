@@ -1,0 +1,400 @@
+
+/**
+ * @author Manteo
+ * @version 1.0
+ */
+
+/*Options.php*/
+/*Vertmenu*/
+
+.arrowgreen{
+	width: 230px; /*width of menu*/
+	border-style: solid solid none solid;
+	border-color: #94AA74;
+	border-size: 1px;
+	border-width: 1px;
+	text-align:left;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.arrowgreen ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.arrowgreen li a{
+	font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+	display: block;
+	background: transparent url(../images/arrowblue.gif) 100% 0;
+  height: 24px; /*Set to height of bg image- padding within link (ie: 32px - 4px - 4px)*/
+	padding: 4px 0 4px 10px;
+	line-height: 24px; /*Set line-height of bg image- padding within link (ie: 32px - 4px - 4px)*/
+	text-decoration: none;
+}
+
+.arrowgreen li a:link, .arrowgreen li a:visited {
+	color: #680000;
+}
+
+.arrowgreen li a:hover{
+	color: #26370A;
+	background-position: 100% -32px;
+}
+
+
+.arrowgreen li a.selected{
+	color: #26370A;
+	background-position: 100% -64px;
+}
+
+#menu{
+float:left;
+
+}
+
+#content{
+margin-left: 20px;
+margin-top: 20px;
+height:600px;
+font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+#content1{
+margin-left: 20px;
+margin-top: 20px;
+height:200px;
+font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+}
+
+html{
+background:#ffffff;
+}
+
+
+#dashboard{
+float:right;
+clear:right;
+margin-top:-25px;
+margin-bottom:5px;
+margin-right:5px;
+}
+
+#logout{
+float:right;
+clear:right;
+margin-top:-10px;
+margin-bottom:0px;
+margin-right:5px;
+}
+
+#knopjes{
+margin-left:20px;
+margin-top:5px;
+}
+
+/*Index.php*/
+#welkommessage{
+margin-left:0px;
+margin-bottom:5px;
+}
+
+
+/*Inlogbalken*/
+#username{
+margin-left:80px;
+font:14px arial;
+}
+
+#password{
+margin-left:83px;
+font:14px arial;
+margin-bottom:3px;
+}
+
+#machine1{
+margin-right:30px;
+font:14px arial;
+margin-top:3px;
+}
+
+/* dit is password again van add.php*/
+#password1{
+margin-right:44px;
+}
+
+
+#signup{
+font:15px arial;
+margin-top:10px;
+}
+
+#body{
+border:15px solid #680000;
+background:#ffffff;
+width:1140px;
+font:14px arial;
+}
+
+#form{
+font:12px arial;
+}
+
+#logo{
+border:22px;
+color:#00ff00;
+
+}
+
+#welkom{
+font:14px arial;
+text-align:right;
+margin-top:260px;
+color:grey;
+}
+
+.knop {
+display: inline-block;
+border: 0px solid #ffffff;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+font: 13px Arial;
+font-weight: bold;
+padding: 2px 5px;
+-webkit-border-radius: 7px;
+-moz-border-radius: 7px;
+border-radius: 7px;
+text-shadow:0px 0px 0px #444444;
+-moz-box-shadow: 0px 0px 0px 0px #444444;
+-webkit-box-shadow: 0px 0px 0px 0px #444444;
+box-shadow: 0px 0px 0px 0px #444444;
+color: #ffffff;
+background: #4481e9;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#4481e9), to(#63a6f2));
+background-image: -moz-linear-gradient(top,  #4481e9,  #63a6f2);
+background-image:     -ms-linear-gradient(top, #4481e9,  #63a6f2);
+background-image:      -o-linear-gradient(top, #4481e9,  #63a6f2);
+background-image:         linear-gradient(top, #4481e9,  #63a6f2);
+filter:  progid:DXImaGETransform.Microsoft.gradient(startColorstr='#4481e9', endColorstr='#63a6f2');
+}
+.knop:hover {
+background: #4481e9;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#63a6f2), to(#4481e9));
+background-image: -moz-linear-gradient(top,  #63a6f2,  #4481e9);
+background-image:     -ms-linear-gradient(top, #63a6f2,  #4481e9);
+background-image:      -o-linear-gradient(top, #63a6f2,  #4481e9);
+background-image:         linear-gradient(top, #63a6f2,  #4481e9);
+filter:  progid:DXImaGETransform.Microsoft.gradient(startColorstr='#63a6f2', endColorstr='#4481e9');
+text-decoration: none;
+color: #ffffff;
+}
+.knop:active {
+color: #ffffff;
+position: relative;
+top: 1px;
+}
+
+#sign{
+border:15px solid #680000;
+background:#ffffff;
+width:1140px;
+font:18px arial;
+}
+
+#create{
+border:15px solid #680000;
+background:#ffffff;
+width:1140px;
+font:18px arial;
+}
+
+#connectvm{
+border:15px solid #680000;
+background:#ffffff;
+width:1140px;
+font:18px arial;
+}
+
+#createvm{
+border:15px solid #680000;
+background:#ffffff;
+width:1140px;
+font:18px arial;
+}
+
+/*admin_package.php*/
+
+#namebar{
+margin-left:36px;
+}
+
+#ram{
+margin-left:42px;
+}
+
+#hdd{
+margin-left:43px;
+}
+
+/*vm.php*/
+#machine{
+margin-right:26px;
+}
+#ram2{
+margin-left:42px;
+}
+
+#hdd2{
+margin-left:43px;
+}
+
+#ipvm{
+margin-left:27px;
+}
+
+#ipmaster{
+margin-left:2px;
+}
+
+/*options.php*/
+table#options{
+border:1px solid grey;
+width:500px;
+}
+
+table#options1{
+border:0px solid grey;
+margin-bottom:-15px;
+width:300px;
+}
+
+table#options2{
+border:0px solid grey;
+margin-bottom:-15px;
+width:200px;
+}
+
+#optionslink{
+float:right;
+}
+
+
+/**
+#naam{
+margin-left:40px;
+font:14px arial;
+{
+**/
+
+
+#addos{
+margin-left:69px;
+font:14px arial;
+}
+
+/*dit is van add os*/
+
+/*os_admin.php*/
+#path{
+margin-left:45px;
+}
+
+#os{
+margin-left:54px;
+}
+
+
+/*dit is van add os*/
+
+
+
+
+/*tabel*/
+#customers
+{
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+width:50%;
+border-collapse:collapse;
+}
+
+#customers td, #customers th
+{
+font-size:1em;
+border:1px solid #FFFFFF;
+padding:3px 7px 2px 7px;
+text-align:center;
+}
+
+#customers th
+{
+font-size:1.1em;
+padding-top:5px;
+padding-bottom:4px;
+background-color:#4481e9;
+color:#ffffff;
+}
+
+#customers tr.alt td
+{
+color:#000000;
+background-color:rgb(240,240,255) ;
+}
+
+#customers1
+{
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+width:80%;
+
+border-collapse:collapse;
+}
+
+#customers1 td, #customers th
+{
+font-size:1em;
+border:1px solid #FFFFFF;
+padding:3px 7px 2px 7px;
+text-align:center;
+}
+
+#customers1 th
+{
+font-size:1.1em;
+padding-top:5px;
+padding-bottom:4px;
+background-color:#4481e9;
+color:#ffffff;
+}
+
+#customers1 tr.alt td
+{
+color:#000000;
+background-color:rgb(240,240,255) ;
+}
+
+
+
+/*monitoring.php*/
+#frame1{
+clear:bottom;
+float:top;
+}
+
+.monitormenu ul{
+padding: 3px 0;
+margin-left: 0;
+margin-top: 1px;
+margin-bottom: 5px;
+font: bold 13px Verdana;
+list-style-type: none;
+text-align: center; /*set to left, center, or right to align the menu as desired*/
+}
+
+.monitormenu li{
+display: inline;
+margin: 0;
+}
+
+

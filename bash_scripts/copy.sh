@@ -1,0 +1,1 @@
+cp $1 /var/lib/libvirt/images/$2.img
